@@ -11,14 +11,14 @@
 #include <dt-bindings/zmk/rgb.h>
 #include <dt-bindings/led/led.h>
 
-&encoder_1 {
+&encoder_1_top_row {
 	status = "okay";
 };
 
 / {
 	sensors {
 		compatible = "zmk,keymap-sensors";
-		sensors = <&encoder_1>;
+		sensors = <&encoder_1_top_row>;
 	};
 
 	keymap {
